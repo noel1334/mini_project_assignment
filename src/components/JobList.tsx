@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState, useEffect } from "react";
 import JobItem from "./JobItem";
 import { Job } from "../types/Job";
@@ -23,8 +21,14 @@ const JobList: React.FC<JobListProps> = ({ onViewDetails }) => {
         const data: Job[] = await response.json();
         setJobs(data);
         setLoading(false);
-      } catch (error: any) {
-        setError(error.message);
+      } catch (err) {
+        // Changed error: any to err
+        if (err instanceof Error) {
+          // Check if err is an instance of Error
+          setError(err.message); // Access the message property of the Error object
+        } else {
+          setError("An unexpected error occurred."); // Handle non-Error objects (rare)
+        }
         setLoading(false);
       }
     };
