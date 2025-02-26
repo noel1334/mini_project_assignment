@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "Tech Corp",
+    "location": "Remote",
+    "salary": "$70,000 - $90,000",
+    "requiredSkills": ["React", "Next.js", "JavaScript", "Tailwind CSS"],
+    "matchScore": 85,
+    "description": "We are looking for a skilled Frontend Developer to join our team. You will be responsible for building and maintaining user interfaces for our web applications.  Experience with React and Next.js is a must."
+  },
+  {
+    "id": 2,
+    "title": "UI Engineer",
+    "company": "DesignPro",
+    "location": "New York, USA",
+    "salary": "$80,000 - $100,000",
+    "requiredSkills": ["Figma", "React", "CSS"],
+    "matchScore": 70,
+    "description": "DesignPro is seeking a talented UI Engineer to create visually appealing and user-friendly interfaces.  You'll work closely with designers to bring their concepts to life."
+  },
+  {
+    "id": 3,
+    "title": "Backend Developer",
+    "company": "apiPro",
+    "location": "New York, USA",
+    "salary": "$50,000 - $80,000",
+    "requiredSkills": ["express", "Mongodb", "Nodejs"],
+    "matchScore": 40,
+    "description": "Looking for a skilled backend developer to build out backend services to handle incoming and outgoing API requests."
+  },
+  {
+    "id": 4,
+    "title": "Full Stack Engineer",
+    "company": "Web Solutions Inc.",
+    "location": "San Francisco, USA",
+    "salary": "$100,000 - $140,000",
+    "requiredSkills": ["React", "Node.js", "PostgreSQL", "AWS"],
+    "matchScore": 90,
+    "description": "Join our dynamic team as a Full Stack Engineer and contribute to building innovative web solutions.  You'll be involved in all aspects of the development process, from front-end design to back-end infrastructure."
+  },
+  {
+    "id": 5,
+    "title": "Data Scientist",
+    "company": "Analytics Co.",
+    "location": "Remote",
+    "salary": "$90,000 - $120,000",
+    "requiredSkills": ["Python", "Machine Learning", "Statistics", "Data Visualization"],
+    "matchScore": 65,
+    "description": "We're seeking a Data Scientist to analyze large datasets and develop machine learning models.  Strong analytical and problem-solving skills are essential."
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Developer",
+    "company": "App Factory",
+    "location": "London, UK",
+    "salary": "£60,000 - £80,000",
+    "requiredSkills": ["Swift", "Kotlin", "React Native"],
+    "matchScore": 75
+  },
+  {
+    "id": 7,
+    "title": "DevOps Engineer",
+    "company": "Cloud Services Ltd.",
+    "location": "Dublin, Ireland",
+    "salary": "€70,000 - €90,000",
+    "requiredSkills": ["Docker", "Kubernetes", "AWS", "Jenkins"],
+    "matchScore": 80,
+    "description": "Cloud Services Ltd. is looking for a DevOps Engineer to automate and streamline our software development and deployment processes."
+  },
+  {
+    "id": 8,
+    "title": "UX Designer",
+    "company": "UserFirst Designs",
+    "location": "Berlin, Germany",
+    "salary": "€65,000 - €85,000",
+    "requiredSkills": ["User Research", "Wireframing", "Prototyping", "Usability Testing"],
+    "matchScore": 55
+  },
+  {
+    "id": 9,
+    "title": "QA Engineer",
+    "company": "Quality Assurance Group",
+    "location": "Toronto, Canada",
+    "salary": "$60,000 - $80,000",
+    "requiredSkills": ["Test Automation", "Selenium", "Jira"],
+    "matchScore": 60,
+    "description": "We're searching for a QA engineer who understands the importance of rigorous testing and detailed documentation of test cases."
+  },
+  {
+    "id": 10,
+    "title": "Product Manager",
+    "company": "Product Innovations",
+    "location": "Remote",
+    "salary": "$90,000 - $130,000",
+    "requiredSkills": ["Product Strategy", "Market Research", "Agile", "Communication"],
+    "matchScore": 70,
+    "description": "Product Innovations seeks an analytical product manager to set the vision for new features based on user feedback."
+  },
+  {
+    "id": 11,
+    "title": "Software Engineer",
+    "company": "NaijaTech Solutions",
+    "location": "Lagos, Nigeria",
+    "salary": "₦300,000 - ₦500,000/month",
+    "requiredSkills": ["Java", "Spring Boot", "MySQL", "REST APIs"],
+    "matchScore": 75,
+    "description": "NaijaTech Solutions is seeking a talented Software Engineer to build and maintain our core applications. Experience with Java and Spring Boot is required."
+  },
+  {
+    "id": 12,
+    "title": "Mobile App Developer (Android)",
+    "company": "Abuja Mobile Apps",
+    "location": "Abuja, Nigeria",
+    "salary": "₦250,000 - ₦400,000/month",
+    "requiredSkills": ["Kotlin", "Android SDK", "Firebase"],
+    "matchScore": 65
+  },
+  {
+    "id": 13,
+    "title": "Data Analyst",
+    "company": "Lagos Data Analytics",
+    "location": "Lagos, Nigeria",
+    "salary": "₦200,000 - ₦350,000/month",
+    "requiredSkills": ["Excel", "SQL", "Python", "Tableau"],
+    "matchScore": 50,
+    "description": "Lagos Data Analytics needs a detail-oriented Data Analyst to collect, analyze, and interpret data to drive business decisions."
+  },
+  {
+    "id": 14,
+    "title": "Web Developer",
+    "company": "Port Harcourt Web Design",
+    "location": "Port Harcourt, Nigeria",
+    "salary": "₦150,000 - ₦300,000/month",
+    "requiredSkills": ["HTML", "CSS", "JavaScript", "PHP"],
+    "matchScore": 60,
+    "description": "Port Harcourt Web Design is looking for a creative Web Developer to design and develop responsive websites for our clients."
+  },
+  {
+    "id": 15,
+    "title": "IT Support Specialist",
+    "company": "Kano IT Services",
+    "location": "Kano, Nigeria",
+    "salary": "₦100,000 - ₦200,000/month",
+    "requiredSkills": ["Networking", "Troubleshooting", "Windows Server", "Linux"],
+    "matchScore": 45
+  },
+    {
+    "id": 16,
+    "title": "Digital Marketing Specialist",
+    "company": "Benin City Digital",
+    "location": "Benin City, Nigeria",
+    "salary": "₦180,000 - ₦320,000/month",
+    "requiredSkills": ["SEO", "Social Media Marketing", "Content Creation", "Google Analytics"],
+    "matchScore": 55,
+      "description": "A marketing company in Benin is currently seeking a digital marketing specialist to oversee our digital marketing efforts."
+  }
+]
