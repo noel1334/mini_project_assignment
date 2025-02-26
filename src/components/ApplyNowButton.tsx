@@ -1,12 +1,12 @@
-"use client"; // Make sure this is a client component
+"use client";
 
-import React, { useState } from "react"; // Import useState
-import Alert from "./Alert"; // Import the Alert component
+import React, { useState } from "react";
+import Alert from "./Alert";
 
 interface ApplyNowButtonProps {
   requiredSkills: string[];
   userSkills: string[];
-  onApply: () => void; // Function to handle the "apply" action
+  onApply: () => void;
 }
 
 const ApplyNowButton: React.FC<ApplyNowButtonProps> = ({
@@ -14,10 +14,11 @@ const ApplyNowButton: React.FC<ApplyNowButtonProps> = ({
   userSkills,
   onApply,
 }) => {
+  const [showAlert, setShowAlert] = useState(false);
+
   const missingSkills = requiredSkills.filter(
     (skill) => !userSkills.includes(skill)
   );
-  const [showAlert, setShowAlert] = useState(false);
 
   const handleApplyClick = () => {
     if (missingSkills.length > 0) {
@@ -27,26 +28,20 @@ const ApplyNowButton: React.FC<ApplyNowButtonProps> = ({
     }
   };
 
-  const handleCloseAlert = () => {
-    setShowAlert(false);
-  };
+  const handleCloseAlert = () => setShowAlert(false);
 
   return (
     <div>
+      <button onClick={handleApplyClick}>Apply Now</button>
       {showAlert && (
         <Alert
           message={`You are missing the following skills: ${missingSkills.join(
             ", "
           )}. Please upskill before applying.`}
           onClose={handleCloseAlert}
+          type="warning" // Add the type prop here!
         />
       )}
-      <button
-        className="bg-green-500 hover:bg-green-700 text-white mt- font-medium py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-300"
-        onClick={handleApplyClick}
-      >
-        Apply Now
-      </button>
     </div>
   );
 };
