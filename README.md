@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI-Powered Job Match Dashboard
 
-## Getting Started
+A mini project built with Next.js, React, and Tailwind CSS to display job recommendations, job match scores, and allow users to apply for jobs.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+*   [Overview](#overview)
+*   [Features](#features)
+*   [Technologies Used](#technologies-used)
+*   [Setup and Installation](#setup-and-installation)
+*   [Running the Application](#running-the-application)
+*   [Project Structure](#project-structure)
+*   [API](#api)
+*   [Contributing](#contributing)
+*   [License](#license)
+*   [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is a simple job match dashboard that utilizes a mock API to fetch job listings and displays them to the user. The dashboard showcases skills in:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   Frontend development with React and Next.js
+*   UI/UX design with Tailwind CSS
+*   API handling with fetch or Axios
+*   Component-based architecture
+*   Responsive design principles
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+*   **Job Listings:** Displays a list of job recommendations with key details (title, company, location, salary range).
+*   **Match Score:** Visual representation of how well a user fits each job using a progress bar and color-coded score.
+*   **Job Details:** Displays detailed information about each job, including required skills.
+*   **Apply Now:** Allows users to "apply" for jobs (mock action). Provides upskilling suggestions if the user lacks required skills.
+*   **Responsive Design:** Adapts to different screen sizes for optimal viewing on various devices.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+*   **Frontend Framework:** [Next.js](https://nextjs.org/) (React)
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+*   **State Management:** [React Context API](https://reactjs.org/docs/context.html) (or Zustand)
+*   **API Handling:** [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+*   **Language:** [TypeScript](https://www.typescriptlang.org/) (Optional)
 
-## Deploy on Vercel
+## Setup and Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1.  **Clone the repository:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+    git clone [YOUR_REPOSITORY_URL]
+    cd my-job-dashboard
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install  # or yarn install
+    ```
+
+## Running the Application
+
+1.  **Start the development server:**
+
+    ```bash
+    npm run dev  # or yarn dev
+    ```
+
+2.  **Open your browser and navigate to `http://localhost:3000`** (or the port specified in your terminal).
+
+## Project Structure
