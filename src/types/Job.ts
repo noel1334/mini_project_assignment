@@ -6,5 +6,5 @@ export interface Job {
   salary: string;
   requiredSkills: string[];
   matchScore: number;
-  description?: string; // Add the description property, make it optional if necessary
+  description?: string; 
 }
