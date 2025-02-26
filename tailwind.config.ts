@@ -10,6 +10,10 @@ export default {
     extend: {
       colors: {
       },
+      fontFamily: { 
+        'geist': ['Geist', 'sans-serif'],
+        'geist-mono': ['Geist Mono', 'monospace'],
+      },
     },
   },
   plugins: [],
